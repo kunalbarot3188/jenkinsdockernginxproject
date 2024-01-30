@@ -1,10 +1,7 @@
 # base image
 FROM nginx:latest
 
-# workdirecotry
-#WORKDIR /usr/share/nginx/html
-
- #copy source
+#copy source
 COPY index.html /usr/share/nginx/html
 
 # expose Port
