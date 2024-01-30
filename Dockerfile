@@ -2,10 +2,10 @@
 FROM nginx:latest
 
 # workdirecotry
-WORKDIR /app
+#WORKDIR /usr/share/nginx/html
 
  #copy source
-COPY . /app/
+COPY index.html /usr/share/nginx/html
 
 # expose Port
 EXPOSE 80
